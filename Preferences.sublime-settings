@@ -1,8 +1,9 @@
 {
     "bold_folder_labels": true,
     "caret_extra_width": 1,
-    "block_caret":true,
-    "caret_style": "blink",
+    "block_caret":false,
+    "caret_style": "phase",
+
     "close_windows_when_empty": false,
     "color_scheme": "gruvbox (Dark) (Hard) NDC.sublime-color-scheme",
     "copy_with_empty_selection": true,
@@ -38,27 +39,11 @@
     [
         "no_round"
     ],
-    "font_size": 13,
+    "font_size": 12,
     "highlight_line": true,
     "highlight_modified_tabs": true,
     "ignored_packages":
     [
-        "ActionScript",
-        "AppleScript",
-        "ASP",
-        "D",
-        "Diff",
-        "Erlang",
-        "Graphviz",
-        "Groovy",
-        "HTML-CSS-JS Prettify",
-        "Lisp",
-        "Lua",
-        "Objective-C",
-        "OCaml",
-        "Rails",
-        "Ruby",
-        "Vintage"
     ],
     "installed_packages":[
         "Anaconda",
@@ -92,5 +77,36 @@
     "use_simple_full_screen": true,
     "word_wrap": true,
     "save_on_focus_lost": true,
-    "wrap_width":90
+    "wrap_width":90,
+    /*"gnc_h02": true,*/
+    /*"gnc_m09": true,*/
+    /*"gnc_w5m11": true,*/
+    "gn_hide_tab_dropdown": true,
+    "gn_overlay_scroll_bars": true,
+    "gn_sidebar_box": true,
+    "gn_title_bar": true,
+    "gnwidg1": true,
+    "gnwidgo": true,
+    /*"gnc_001": false,*/
+    /*"gnc_002": false,*/
+    /*"gnc_m00": true,*/
+    /*"gnc_w5m12": true,*/
+    /*"gnc_h02": true,*/
+    /*"gnc_m02": true,*/
+    /*"gnc_w5m12": true,*/
+    /*"gnc_h02": true,*/
+    /*"gnc_m04": true,*/
+    /*"gnc_001": false,*/
+    /*"gnc_002": false,*/
+    /*"gnc_m05": true,*/
+    /*"gnc_m06": true,*/
+    /*"gnc_m07": true,*/
+    /*"gnc_h01": true,*/
+    /*"gnc_m06": true,*/
+    /*"gnc_w6m10": true,*/
+    "gnc_001": false,
+    "gnc_002": true,
+    "gnc_h01": true,
+    "gnc_m07": true,
+    "gnc_w6m10": true,
 }
