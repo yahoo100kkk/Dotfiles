@@ -24,8 +24,11 @@ textwidth = 90,
 hidden = true,
 completeopt='menuone,noinsert,noselect',
 incsearch = true,
+undofile = true
 }
-
 for option, value in pairs(options) do
 	vim.opt[option] = value
 end
+
+vim.cmd[[highlight Cursorline gui=underline ctermbg=NONE guibg=NONE]]
+vim.cmd[[hi Normal guibg=NONE cterm=NONE]]

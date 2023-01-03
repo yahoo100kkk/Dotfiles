@@ -10,33 +10,57 @@ vim.cmd [[packadd packer.nvim]]
 packer.startup( function(use)
 
     use 'wbthomason/packer.nvim'
-    use 'morhetz/gruvbox'
+    --colorschemes
+    use {
+        'morhetz/gruvbox', 'hachy/eva01.vim'
+        }
+    --icons
     use 'nvim-tree/nvim-web-devicons'
+    --tree for folder     
     use 'nvim-tree/nvim-tree.lua'
     use 'nvim-lualine/lualine.nvim'
+    
     use 'junegunn/fzf'
     use 'junegunn/fzf.vim'
-    use 'neovim/nvim-lspconfig'
-    use 'williamboman/nvim-lsp-installer'
+
     use 'nvim-treesitter/nvim-treesitter'
+    --auto close tags
     use 'windwp/nvim-ts-autotag'
-    use 'hrsh7th/nvim-cmp'
-    use 'L3MON4D3/LuaSnip'
-    use 'rafamadriz/friendly-snippets'
-    use 'onsails/lspkind-nvim'
     use 'windwp/nvim-autopairs'
+    
+    --tabs
     use 'romgrk/barbar.nvim'
 
+    --lsp
+    use { 
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
+    'neovim/nvim-lspconfig',
+    }
+    --autocomplete and snippets
+    use {
+        'hrsh7th/nvim-cmp',
+        'hrsh7th/cmp-nvim-lsp',
+        'L3MON4D3/LuaSnip',
+        'saadparwaiz1/cmp_luasnip',
+        'rafamadriz/friendly-snippets'
+    }
     --telescope
     use 'nvim-lua/plenary.nvim'
-    use 'nvim-lua/popup.nvim'
     use 'nvim-lua/telescope.nvim'
     use 'jremmen/vim-ripgrep'
-    use 'SirVer/ultisnips'
-    use 'honza/vim-snippets'
-    use 'Valloric/YouCompleteMe'
-    use 'nvim-lua/completion-nvim'
     use 'ThePrimeagen/vim-be-good'
+    use 'Yggdroot/indentLine'
+    use 'norcalli/nvim-colorizer.lua'
+    use 'aca/emmet-ls'
+    use 'MichaelMure/mdr'
+    use 'skanehira/preview-markdown.vim'
+    
+    --react auto import components
+    use 'matthewhartman/react-import-jsx.vim'
 end)
 
+
 require('nvim-autopairs').setup {}
+require'colorizer'.setup()
+vim.cmd [[let g:react_import_jsx#auto_complete = 1]]

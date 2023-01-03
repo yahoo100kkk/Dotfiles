@@ -79,20 +79,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  YouCompleteMe = {
-    loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\YouCompleteMe",
-    url = "https://github.com/Valloric/YouCompleteMe"
-  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
   },
-  ["completion-nvim"] = {
+  ["cmp-nvim-lsp"] = {
     loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\completion-nvim",
-    url = "https://github.com/nvim-lua/completion-nvim"
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["emmet-ls"] = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\emmet-ls",
+    url = "https://github.com/aca/emmet-ls"
+  },
+  ["eva01.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\eva01.vim",
+    url = "https://github.com/hachy/eva01.vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -114,15 +124,30 @@ _G.packer_plugins = {
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
-  ["lspkind-nvim"] = {
+  indentLine = {
     loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
-    url = "https://github.com/onsails/lspkind-nvim"
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\indentLine",
+    url = "https://github.com/Yggdroot/indentLine"
   },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
+  mdr = {
+    loaded = true,
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mdr",
+    url = "https://github.com/MichaelMure/mdr"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -134,10 +159,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
-  ["nvim-lsp-installer"] = {
+  ["nvim-colorizer.lua"] = {
     loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
-    url = "https://github.com/williamboman/nvim-lsp-installer"
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -174,25 +199,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["popup.nvim"] = {
+  ["preview-markdown.vim"] = {
     loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\popup.nvim",
-    url = "https://github.com/nvim-lua/popup.nvim"
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\preview-markdown.vim",
+    url = "https://github.com/skanehira/preview-markdown.vim"
   },
-  ["rose-pine"] = {
+  ["react-import-jsx.vim"] = {
     loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
-    url = "https://github.com/NycRat/rose-pine"
+    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\react-import-jsx.vim",
+    url = "https://github.com/matthewhartman/react-import-jsx.vim"
   },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-lua/telescope.nvim"
-  },
-  ultisnips = {
-    loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ultisnips",
-    url = "https://github.com/SirVer/ultisnips"
   },
   ["vim-be-good"] = {
     loaded = true,
@@ -203,11 +223,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-ripgrep",
     url = "https://github.com/jremmen/vim-ripgrep"
-  },
-  ["vim-snippets"] = {
-    loaded = true,
-    path = "C:\\Users\\DELL\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-snippets",
-    url = "https://github.com/honza/vim-snippets"
   }
 }
 
